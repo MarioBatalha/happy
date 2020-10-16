@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Landing from './pages/Landing';
 import OrphanagesMap from './pages/OrphanagesMap';
@@ -7,8 +7,10 @@ import OrphanagesMap from './pages/OrphanagesMap';
 function Routes() {
     return (
         <BrowserRouter>
+          <Switch>
             <Route path="/" exact component={Landing} />
-            <Route path="/OrphanagesMap"  component={OrphanagesMap} />
+            <Route path="/orphanageMap"  component={OrphanagesMap} />
+          </Switch>
         </BrowserRouter>
     );
 }
