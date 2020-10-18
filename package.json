@@ -1,0 +1,8 @@
+{
+  "name": "happy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MarioBatalha/happy.git",
+  "author": "mariobatalha <mariobatalha9@gmail.com>",
+  "license": "MIT"
+}
